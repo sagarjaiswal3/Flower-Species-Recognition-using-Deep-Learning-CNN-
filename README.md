@@ -161,8 +161,6 @@ Run all cells and upload an image to get prediction results.
 
 ```
 📦 Flower-Species-Recognition-CNN
- ┣ 📂 dataset
- ┣ 📂 models
  ┣ 📂 outputs
  ┣ 📜 Flower Species Recognition using Deep Learning.ipynb
  ┣ 📜 README.md
