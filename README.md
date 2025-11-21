@@ -46,7 +46,7 @@ The model is trained and evaluated in Google Colab using TensorFlow and Keras.
 
 ## 📂 Dataset
 
-Dataset Source: Kaggle - imsparsh/flowers-dataset
+Dataset Source: [Kaggle - imsparsh/flowers-dataset](https://www.kaggle.com/datasets/imsparsh/flowers-dataset)
 
 ### Classes Included:
 
@@ -110,10 +110,10 @@ Predicted Flower Species
 
 ## 📊 Results
 
-* Final Training Accuracy: 82.48%
-* Final Validation Accuracy: 71.53%
-* Final Training Loss: 47.02%
-* Final Validation Loss: 77.95%
+* Final Training Accuracy: 81.53%
+* Final Validation Accuracy: 70.80%
+* Final Training Loss: 51.93%
+* Final Validation Loss: 77.78%
 
 ### Performance Highlights:
 
@@ -124,7 +124,7 @@ Predicted Flower Species
 Sample Prediction:
 
 ```
-Predicted Flower: Dandelion
+Predicted Flower: Daisy
 Confidence: 90%+
 ```
 
@@ -135,7 +135,7 @@ Confidence: 90%+
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/flower-species-recognition-cnn.git
+git clone https://github.com/sagarjaiswal3/flower-species-recognition-cnn.git
 cd flower-species-recognition-cnn
 ```
 
@@ -150,7 +150,7 @@ pip install -r requirements.txt
 Open the Jupyter Notebook / Colab file:
 
 ```
-AML_MINI_PROJECT.ipynb
+Flower Species Recognition using Deep Learning.ipynb
 ```
 
 Run all cells and upload an image to get prediction results.
@@ -164,7 +164,7 @@ Run all cells and upload an image to get prediction results.
  ┣ 📂 dataset
  ┣ 📂 models
  ┣ 📂 outputs
- ┣ 📜 AML_MINI_PROJECT.ipynb
+ ┣ 📜 Flower Species Recognition using Deep Learning.ipynb
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
 ```
@@ -190,20 +190,9 @@ Run all cells and upload an image to get prediction results.
 
 ---
 
-## 👨‍💻 Author
+## 🖼️ Output & Results
 
-**Sagar Kumar Jaiswal**
-USN: 23BTRCA005
-Machine Learning Student
-
----
-
-## 🖼️ Output & Results Screenshots
-
-To display your output images (accuracy graph, confusion matrix, prediction result) in GitHub, add them to a folder like `outputs/` and use this format:
-
-```markdown
-### Training & Validation Accuracy Graph
+### Training & Validation Accuracy
 ![Accuracy Graph](outputs/accuracy.png)
 
 ### Confusion Matrix
@@ -211,18 +200,14 @@ To display your output images (accuracy graph, confusion matrix, prediction resu
 
 ### Sample Prediction
 ![Prediction Result](outputs/prediction.png)
-```
 
-✅ Make sure the image files are in your repository with the same names.
+---
 
-Example folder structure:
+## 👨‍💻 Author
 
-```
-outputs/
- ├── accuracy.png
- ├── confusion_matrix.png
- └── prediction.png
-```
+**Sagar Kumar Jaiswal**  
+USN: 23BTRCA005  
+Machine Learning Student
 
 ---
 
